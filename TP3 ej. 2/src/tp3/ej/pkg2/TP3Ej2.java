@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class TP3Ej2 {
     public static void main(String[] args) {
         Scanner na = new Scanner(System.in);
+        System.out.println("Ingrese un numero.");
         int n = na.nextInt();
         int contador1 = 1;
         while(contador1 <= n){
